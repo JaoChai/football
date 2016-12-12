@@ -5,7 +5,9 @@ class Backend extends CI_Controller {
 
 	public function index()
   {
-		$this->load->view('backend/index');
+    $this->load->view('layoutbackend/header');
+    $this->load->view('backend/index');
+    $this->load->view('layoutbackend/footer');
 	}
 
 
