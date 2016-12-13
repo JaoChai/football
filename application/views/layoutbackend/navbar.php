@@ -1,4 +1,5 @@
 <!-- Navigation -->
+<?php $session_data = $this->session->userdata('logged_in');?>
 <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
     <!-- Brand and toggle get grouped for better mobile display -->
     <div class="navbar-header">
@@ -13,10 +14,10 @@
     <!-- Top Menu Items -->
     <ul class="nav navbar-right top-nav">
         <li class="dropdown">
-            <a href="#" class="dropdown-toggle" data-toggle="dropdown"><i class="fa fa-user"></i> John Smith <b class="caret"></b></a>
+            <a href="#" class="dropdown-toggle" data-toggle="dropdown"><i class="fa fa-user"></i> <?php echo $session_data['username'];?> <b class="caret"></b></a>
             <ul class="dropdown-menu">
                 <li>
-                    <a href="#"><i class="fa fa-fw fa-power-off"></i> Log Out</a>
+                    <a href="<?php echo site_url('backend/logout');?>"><i class="fa fa-fw fa-power-off"></i> Log Out</a>
                 </li>
             </ul>
         </li>
@@ -28,7 +29,7 @@
                 <a href="<?php echo site_url('backend/viewleague');?>"></i>จักการลีก</a>
             </li>
             <li>
-                <a href="<?php echo site_url('backend/viewtablefooball');?>"></i>จัดการตารางบอล</a>
+                <a href="<?php echo site_url('backend/viewtablefootball');?>"></i>จัดการตารางบอล</a>
             </li>
             <li>
                 <a href="<?php echo site_url('backend/viewch');?>"></i>จัดการช่องทีวี</a>
