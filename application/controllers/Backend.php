@@ -171,7 +171,7 @@ class Backend extends CI_Controller {
 		$this->form_validation->set_message('required', 'กรุณากรอก %s');
 		if($this->form_validation->run() == FALSE){
 			$this->session->set_flashdata('alert', '<div class="alert alert-danger">' . validation_errors() . '</div>');
-			redirect('backend/football');
+			redirect('backend/viewtablefootball');
 		}else{
 			date_default_timezone_set('Asia/Bangkok');
 			$data = array(
