@@ -73,15 +73,19 @@ hr {
 
 .tagline-divider {
     margin: 15px auto 3px;
-    max-width: 250px;
+    max-width: 100px;
     border-color: #999999;
 }
+
 
 .box {
     margin-bottom: 20px;
     padding: 30px 15px;
     background: #fff;
 }
+
+
+
 
 .intro-text {
     text-transform: uppercase;

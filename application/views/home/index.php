@@ -32,38 +32,34 @@
 
     <div class="container">
       <div class="row">
-             <div class="box">
-        <h2>Basic Table</h2>
-        <p>The .table class adds basic styling (light padding and only horizontal dividers) to a table:</p>
-        <table class="table">
-          <thead>
-            <tr>
-              <th>Firstname</th>
-              <th>Lastname</th>
-              <th>Email</th>
-            </tr>
-          </thead>
-          <tbody>
-            <tr>
-              <td>John</td>
-              <td>Doe</td>
-              <td>john@example.com</td>
-            </tr>
-            <tr>
-              <td>Mary</td>
-              <td>Moe</td>
-              <td>mary@example.com</td>
-            </tr>
-            <tr>
-              <td>July</td>
-              <td>Dooley</td>
-              <td>july@example.com</td>
-            </tr>
-          </tbody>
-        </table>
+        <div class="box">
+          <div class="table-responsive">
+            <table class="table">
+              <thead>
+                <tr>
+                  <th></th>
+                  <th></th>
+                  <th></th>
+                  <th></th>
+                  <th></th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td>14 Dec 2016 - (19:00 น.)</td>
+                  <td>อินโดนีเซีย</td>
+                  <td>VS</td>
+                  <td>ไทย</td>
+                  <td>CH12</td>
+                </tr>
+
+              </tbody>
+            </table>
+            </div>
+        </div>
+
       </div>
-    </div>
-    </div>
+  </div>
 
 
     <footer>
@@ -75,16 +71,3 @@
             </div>
         </div>
     </footer>
-
-    <!-- jQuery -->
-    <script src="js/jquery.js"></script>
-
-    <!-- Bootstrap Core JavaScript -->
-    <script src="js/bootstrap.min.js"></script>
-
-    <!-- Script to Activate the Carousel -->
-    <script>
-    $('.carousel').carousel({
-        interval: 5000 //changes the speed
-    })
-    </script>
