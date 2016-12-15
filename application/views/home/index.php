@@ -33,29 +33,35 @@
     <div class="container">
       <div class="row">
         <div class="box">
+          <?php foreach($header as $rs): ?>
+            <h2><?php echo $rs->lea_name;?></h2>
           <div class="table-responsive">
             <table class="table">
               <thead>
                 <tr>
+                  <th>เวลา</th>
                   <th></th>
                   <th></th>
                   <th></th>
-                  <th></th>
-                  <th></th>
+                  <th>ช่อง</th>
                 </tr>
               </thead>
               <tbody>
+                <?php foreach($result as $row): ?>
+                  <?php if($rs->lea_name == $row->lea_name){?>
                 <tr>
-                  <td>14 Dec 2016 - (19:00 น.)</td>
-                  <td>อินโดนีเซีย</td>
+                  <td><?php echo $row->table_time;?></td>
+                  <td><?php echo $row->table_team1;?></td>
                   <td>VS</td>
-                  <td>ไทย</td>
-                  <td>CH12</td>
+                  <td><?php echo $row->table_team2;?></td>
+                  <td><a href="<?php echo site_url('welcome/viewcontent/'. $row->ch_id);?>"><?php echo $row->ch_name;?></a></td>
                 </tr>
-
+                <?php } ?>
+              <?php endforeach;?>
               </tbody>
             </table>
             </div>
+            <?php endforeach;?>
         </div>
 
       </div>

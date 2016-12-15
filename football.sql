@@ -3,7 +3,7 @@
 -- http://www.phpmyadmin.net
 --
 -- Host: 127.0.0.1
--- Generation Time: Dec 13, 2016 at 06:25 AM
+-- Generation Time: Dec 15, 2016 at 05:47 AM
 -- Server version: 10.1.16-MariaDB
 -- PHP Version: 5.6.24
 
@@ -58,8 +58,8 @@ CREATE TABLE `channel` (
 --
 
 INSERT INTO `channel` (`ch_id`, `ch_name`, `ch_url`, `ch_date`) VALUES
-(1, 'CH2', 'test', '2016-12-13 09:58:04'),
-(2, 'CH6', 'test', '2016-12-12 12:41:10');
+(1, 'CH2', 'http://www.sport888.co/play/ch7.php', '2016-12-13 09:58:04'),
+(2, 'CH6', 'http://www.sport888.co/play/ch7.php', '2016-12-12 12:41:10');
 
 -- --------------------------------------------------------
 
@@ -78,7 +78,8 @@ CREATE TABLE `league` (
 --
 
 INSERT INTO `league` (`lea_id`, `lea_name`, `lea_date`) VALUES
-(1, 'อังกฤษ', '2016-12-13 09:46:04');
+(1, 'อังกฤษ', '2016-12-13 09:46:04'),
+(2, 'สเปน', '2016-12-13 09:46:04');
 
 -- --------------------------------------------------------
 
@@ -102,7 +103,8 @@ CREATE TABLE `table_league` (
 
 INSERT INTO `table_league` (`table_id`, `table_time`, `table_team1`, `table_team2`, `table_date`, `lea_id`, `ch_id`) VALUES
 (1, '02.45', 'test', 'test', '2016-12-13 11:22:14', 1, 1),
-(2, '04.30', 'test2', 'test2', '2016-12-13 12:10:20', 1, 2);
+(2, '04.30', 'test2', 'test2', '2016-12-13 12:10:20', 2, 2),
+(3, '02.45', 'test', 'test', '2016-12-13 11:22:14', 1, 1);
 
 --
 -- Indexes for dumped tables
@@ -150,12 +152,12 @@ ALTER TABLE `channel`
 -- AUTO_INCREMENT for table `league`
 --
 ALTER TABLE `league`
-  MODIFY `lea_id` int(100) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=2;
+  MODIFY `lea_id` int(100) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=3;
 --
 -- AUTO_INCREMENT for table `table_league`
 --
 ALTER TABLE `table_league`
-  MODIFY `table_id` int(100) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=3;
+  MODIFY `table_id` int(100) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=4;
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
 /*!40101 SET CHARACTER_SET_RESULTS=@OLD_CHARACTER_SET_RESULTS */;
 /*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
