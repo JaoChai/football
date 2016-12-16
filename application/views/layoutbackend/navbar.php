@@ -13,6 +13,11 @@
     </div>
     <!-- Top Menu Items -->
     <ul class="nav navbar-right top-nav">
+
+      <li class="dropdown">
+          <a target="_blank" href="<?php echo site_url('welcome/index');?>" > Go To Web </a>
+      </li>
+
         <li class="dropdown">
             <a href="#" class="dropdown-toggle" data-toggle="dropdown"><i class="fa fa-user"></i> <?php echo $session_data['username'];?> <b class="caret"></b></a>
             <ul class="dropdown-menu">

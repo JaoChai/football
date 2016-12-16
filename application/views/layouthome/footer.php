@@ -1,14 +1,8 @@
-<footer>
-    <div class="container">
-        <div class="row">
-            <div class="col-lg-12 text-center">
-                <p>Copyright &copy; มาดูบอล.com 2016</p>
-            </div>
-        </div>
-    </div>
-</footer>
+<br class="cr" />
+	<div class="space20"></div>
+	<div align="center"><strong>มาดูบอล.com  ดูบอลยูโร 2016 สดๆ ผ่านเน็ตฟรีๆ ไม่ต้องใช้โปรแกรม ทั่วโลก</strong></div>
+	<div class="space100"></div>
+</div>
 
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
-<script src="<?php echo base_url(); ?>assets/js/bootstrap.min.js"></script>
 </body>
 </html>
