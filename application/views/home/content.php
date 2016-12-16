@@ -1,4 +1,8 @@
-<div class="brand"><img src="<?php echo base_url(); ?>assets/images/logo.png"  alt="มาดูบอล"></div>
+<div class="brand">
+  <a href="<?php echo site_url('welcome/index');?>">
+  <img src="<?php echo base_url(); ?>assets/images/logo.png"  alt="มาดูบอล">
+  </a>
+  </div>
     <div class="address-bar">ดูฟุตบอลพรีเมียร์ 2016 สดๆ ผ่านเน็ตฟรีๆ ไม่ต้องใช้โปรแกรม ทั่วโลก</div>
 
     <!-- Navigation -->
@@ -18,12 +22,9 @@
             <!-- Collect the nav links, forms, and other content for toggling -->
             <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                 <ul class="nav navbar-nav">
-                    <li>
-                        <a href="#">หน้าแรก</a>
-                    </li>
-                    <li>
-                        <a href="#">โปรแกรมถ่ายทอดสด</a>
-                    </lis
+                  <li>
+                      <a href="<?php echo site_url('welcome/index');?>">โปรแกรมถ่ายทอดสด</a>
+                  </li>
                 </ul>
             </div>
         </div>
@@ -40,12 +41,4 @@
   </div>
 
 
-    <footer>
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-12 text-center">
-                    <p>Copyright &copy; Your Website 2016</p>
-                </div>
-            </div>
-        </div>
-    </footer>
+    
