@@ -3,9 +3,9 @@
 -- http://www.phpmyadmin.net
 --
 -- Host: 127.0.0.1
--- Generation Time: Dec 15, 2016 at 05:47 AM
--- Server version: 10.1.16-MariaDB
--- PHP Version: 5.6.24
+-- Generation Time: Dec 22, 2016 at 03:43 AM
+-- Server version: 10.1.19-MariaDB
+-- PHP Version: 7.0.13
 
 SET SQL_MODE = "NO_AUTO_VALUE_ON_ZERO";
 SET time_zone = "+00:00";
@@ -58,8 +58,19 @@ CREATE TABLE `channel` (
 --
 
 INSERT INTO `channel` (`ch_id`, `ch_name`, `ch_url`, `ch_date`) VALUES
-(1, 'CH2', 'http://www.sport888.co/play/ch7.php', '2016-12-13 09:58:04'),
-(2, 'CH6', 'http://www.sport888.co/play/ch7.php', '2016-12-12 12:41:10');
+(10, 'Fox Sport', 'http://www.xn--l3car8bzaq6f.com/channel-15', '2016-12-22 09:20:58'),
+(11, 'Fox Sport 2', 'http://www.xn--l3car8bzaq6f.com/channel-16', '2016-12-22 09:21:09'),
+(12, 'Fox Sport 3 ', 'http://www.xn--l3car8bzaq6f.com/channel-17', '2016-12-22 09:21:18'),
+(13, 'TRUE4U', 'http://www.xn--l3car8bzaq6f.com/channel-18', '2016-12-22 09:21:29'),
+(14, 'Bein Sport', 'http://www.xn--l3car8bzaq6f.com/channel-10', '2016-12-22 09:21:48'),
+(15, 'MOCT', 'http://www.xn--l3car8bzaq6f.com/channel-11', '2016-12-22 09:22:03'),
+(16, 'CH7', 'http://www.xn--l3car8bzaq6f.com/channel-12', '2016-12-22 09:22:15'),
+(17, 'GMM ONE', 'http://www.xn--l3car8bzaq6f.com/channel-13', '2016-12-22 09:22:30'),
+(18, 'Skynet 1', 'http://www.xn--l3car8bzaq6f.com/channel-14', '2016-12-22 09:22:47'),
+(19, 'Astro Sport', 'http://www.xn--l3car8bzaq6f.com/channel-4', '2016-12-22 09:24:02'),
+(20, 'AstroSport 2', 'http://www.xn--l3car8bzaq6f.com/channel-5', '2016-12-22 09:24:14'),
+(21, 'AstroSport 3', 'http://www.xn--l3car8bzaq6f.com/channel-6', '2016-12-22 09:24:30'),
+(22, 'PPTV', 'http://www.xn--l3car8bzaq6f.com/channel-8', '2016-12-22 09:24:47');
 
 -- --------------------------------------------------------
 
@@ -78,8 +89,12 @@ CREATE TABLE `league` (
 --
 
 INSERT INTO `league` (`lea_id`, `lea_name`, `lea_date`) VALUES
-(1, 'อังกฤษ', '2016-12-13 09:46:04'),
-(2, 'สเปน', '2016-12-13 09:46:04');
+(1, 'ฟุตบอลAff Suzuki Cup', '2016-12-16 09:33:23'),
+(2, 'ยูฟ่า แชมเปี้ยนส์ลีก', '2016-12-16 09:33:31'),
+(3, 'พรีเมียร์ลีก อังกฤษ', '2016-12-16 09:33:38'),
+(4, 'ลาลีก้า สเปน', '2016-12-16 09:33:44'),
+(5, 'บุนเดสลีกา เยอรมัน', '2016-12-16 09:33:48'),
+(6, 'กัลโช่ เซเรียอา อิตาลี', '2016-12-22 09:25:14');
 
 -- --------------------------------------------------------
 
@@ -102,9 +117,7 @@ CREATE TABLE `table_league` (
 --
 
 INSERT INTO `table_league` (`table_id`, `table_time`, `table_team1`, `table_team2`, `table_date`, `lea_id`, `ch_id`) VALUES
-(1, '02.45', 'test', 'test', '2016-12-13 11:22:14', 1, 1),
-(2, '04.30', 'test2', 'test2', '2016-12-13 12:10:20', 2, 2),
-(3, '02.45', 'test', 'test', '2016-12-13 11:22:14', 1, 1);
+(11, '23 Dec 2016 - (02:45 น.)', 'เอเอส โรม่า', 'คิเอโว่', '2016-12-22 09:25:42', 6, 22);
 
 --
 -- Indexes for dumped tables
@@ -147,17 +160,17 @@ ALTER TABLE `admin`
 -- AUTO_INCREMENT for table `channel`
 --
 ALTER TABLE `channel`
-  MODIFY `ch_id` int(100) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=3;
+  MODIFY `ch_id` int(100) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=23;
 --
 -- AUTO_INCREMENT for table `league`
 --
 ALTER TABLE `league`
-  MODIFY `lea_id` int(100) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=3;
+  MODIFY `lea_id` int(100) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=7;
 --
 -- AUTO_INCREMENT for table `table_league`
 --
 ALTER TABLE `table_league`
-  MODIFY `table_id` int(100) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=4;
+  MODIFY `table_id` int(100) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=12;
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
 /*!40101 SET CHARACTER_SET_RESULTS=@OLD_CHARACTER_SET_RESULTS */;
 /*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
