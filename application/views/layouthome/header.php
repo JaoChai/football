@@ -10,6 +10,10 @@
   <meta property="og:description" content="ดูบอลสด ดูบอลออนไลน์ ดูบอลยูโร 2016 ทั่วโลก  ดูบอลผ่านเน็ต  ดูบอลผ่านมือถือ ดูบอลฟรี" />
   <meta property="og:keywords" content="ดูบอลสด, ดูบอลออนไลน์, ดูบอลยูโร, 2016, ทั่วโลก, ดูบอลผ่านเน็ต, ดูบอลผ่านมือถือ, ดูบอลฟรีี" />
 
+  <meta name="keywords" content="ดูบอลสด, ดูบอลออนไลน์, ดูบอลผ่านมือถือ, ดูบอลฟรี, พรีเมียร์ลีกอังกฤษ, ลาลีก้า สเปน, บุนเดสลีกา เยอรมัน, กัลโช่ เซเรียอา อิตาลี" />
+  <meta name="description" content="ดูบอลสด, ดูบอลออนไลน์, ดูบอลผ่านมือถือ ทุกลีกทั่วโลกฟรี!"/>
+
+
   <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Droid+Sans" />
   <link href="<?php echo base_url(); ?>assets/css/stylehome.css" rel="stylesheet" type="text/css"  />
 
@@ -36,7 +40,7 @@
     <div class="space30"></div>	<div class="fl">
       <div class="space20"></div>
       <div class="space2"></div>
-        <a class="fs16 fc-white" href="<?php echo base_url();?>">โปรแกรมถ่ายทอดสด</a>
+        <a class="fs16 fc-white" href="<?php echo base_url();?>">ดูบอลสด ดูบอลออนไลน์ ดูบอลผ่านมือถือ ทุกลีกทั่วโลกฟรี!</a>
     </div>
 
     <div class="fr">
