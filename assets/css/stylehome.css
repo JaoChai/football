@@ -1,5 +1,5 @@
-/* ########################################################	Properties Cursor Default */
-.cursor-default		{cursor:default;}
+
+r-default		{cursor:default;}
 .cursor-pointer		{cursor:pointer;}
 /* ########################################################	Body Div */
 .cr								{clear:both; line-height:0; height:0;}
@@ -378,3 +378,4 @@ h1, h2, h3		{border:0px; margin:0px; padding:0px; font-weight:normal;}
 .mmenu ul li						{display:inline; list-style:none; position:relative; margin:2px 1px 0px 1px; padding:0px; float:left;}
 .mmenu ul li a					{display:inline; list-style:none; margin:0px 0px 0px 0px; padding:10px 15px 6px 15px; height:19px; float:left; text-decoration:none; font-size:12px; font-weight:bold; color:#FFFFFF;}
 .mmenu ul li a:hover		{display:inline; list-style:none; margin:0px 0px 0px 0px; padding:10px 15px 6px 15px; height:19px; text-decoration:none; font-size:12px; font-weight:bold; color:#FFFFFF; background-color:#222222;}
+
