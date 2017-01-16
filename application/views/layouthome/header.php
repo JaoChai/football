@@ -15,7 +15,7 @@
 
 
   <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Droid+Sans" />
-  <link href="<?php echo base_url(); ?>assets/css/stylehome.css" rel="stylesheet" type="text/css"  />
+   <link href="<?php echo base_url(); ?>assets/css/stylehome.css" rel="stylesheet" type="text/css"  />
 
 </head>
 <body>

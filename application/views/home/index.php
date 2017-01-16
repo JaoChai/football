@@ -38,10 +38,7 @@
   <br class="cr" />
 
   <center>
-
     <a href="https://casino1988.net/&url=มาดูบอล.com" target="_blank">
     <img width="980px" src="https://www.hilightjadtem.com/wp-content/uploads/2016/12/banner-page.gif">
     </a>
-
   </center>
-~
