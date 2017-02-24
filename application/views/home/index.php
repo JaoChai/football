@@ -5,6 +5,12 @@
 <a href="https://line.me/R/ti/p/@madooball" target="_blank"><img src="https://มาดูบอล.com/assets/images/top.gif"></a>
 </center>
 
+<br class="cr" />
+<div class="space30"></div>
+<br class="cr" />
+<div class="space30"></div>
+
+
 <?php foreach($header as $rs): ?>
   <div class="space20"></div>
   <div class="fs31 fc-gold"><?php echo $rs->lea_name;?></div>

@@ -24,14 +24,14 @@
     <div class="space20"></div>
     <div class="fl">
       <a href="<?php echo base_url();?>">
-        <img src="<?php echo base_url(); ?>assets/images/logo.png"  alt="มาดูบอล">
-      </a>
+             <img src="<?php echo base_url(); ?>assets/images/logo.png"  alt="มาดูบอล">
+   </a>
     </div>
 
     <div class="fr">
 	     <div class="space15"></div>
-       <a href="https://casino1988.net/&url=มาดูบอล.com" target="_blank">
-         <img  width="400px" src="<?php echo base_url(); ?>assets/images/ball.gif"  alt="มาดูบอล">
+       <a href="http://sbobet.casino1988.net/&url=มาดูบอล.com" target="_blank">
+         <img  width="400px" src="https://lh3.googleusercontent.com/Ox6LDs_VUEV1jCgArnsMKgzjPK6Mvofqx2pHnBTzEZLilXEqnt0SXxf-NqVPpkgkII_GEGbgpu1J0scXVMNzwgIoXaxpqgn21t_NOZlwsXcoZyFNdmoC0NDqN4Yr64C30KZ2V7gbE4c7t8KSzIUDk-Mz2qLy3UjsHgTXW7oR-9u_KW4a0a4UEbQeDCzuIT1Wtd5D5vDyG7wpgF6OOLj6m_melKnIIDgcO2QBHouQqqF6_5xDZ8o3nw_x04RKUPLD-Wz9RJo7XvnX4sFBhDJa1H2rpRYQ8z-4-nmOOV0LTsq9euJ38Ane8PhfVn2aanks8WJSV4Rhkj8HoFmRYr5lPBxVqq9sL05G_XFPJJ9lcva06XHNSAjf-CvWfVZg4bLA60-1knLbvajqirQtB-y78u3Oa3cKU3ennEazhOaiTew-wcY9dkSu8fT1w4AwCOHjrMQUzEmv4JjOT7qB8izQGWk8CAnZNu747h89KEHe_9vWooGfKGWt8XTMTLoeD4y5-PWhAE0aUnKjy9Qj4oS4oRXnPo88WPAalY47Byn37I00Jr13ZpJSRjLTBuR_AyP8QwsQp7YkFWa00slwAXKR9BKa_Pt1DdT1WDX-_xSuRP9jDQz0lbBgj-xdlSmqMzB3GRdvOB1hRU8_QgxS5wFXGQMH_CYfqIGemQSYAhTTQA=w450-h91-no"  alt="มาดูบอล">
        </a>
     </div>
 
