@@ -14,7 +14,7 @@
                </div>
                <!-- /.row -->
                <div class="row">
-                    <div class="col-lg-4">
+                    <div class="col-lg-12">
 
                         <?php echo form_open('backend/createfootball');?>
 
@@ -58,44 +58,48 @@
                             </div>
                             <?php echo form_close();?>
 
-                            <div class="col-lg-8">
+                      </div>
 
-                              <table class="table table-bordered">
-                                <thead>
-                                <tr>
-                                  <th>NO.</th>
-                                  <th>League</th>
-                                  <th>Channel</th>
-                                  <th>Time</th>
-                                  <th>Team1</th>
-                                  <th>Team2</th>
-                                  <th style="text-align:center">Date</th>
-                                  <th style="text-align:center">Action</th>
-                                </tr>
-                                </thead>
-                                <tbody>
-                                  <?php $num = 1;
-                                  foreach($result  as $row): ?>
-                                <tr>
-                                  <td><?php echo $num++;?></td>
-                                  <td><?php echo $row->lea_name;?></td>
-                                  <td><?php echo $row->ch_name;?></td>
-                                  <td><?php echo $row->table_time;?></td>
-                                  <td><?php echo $row->table_team1;?></td>
-                                  <td><?php echo $row->table_team2;?></td>
-                                  <td><?php echo date('d-m-Y H:i:s', strtotime($row->table_date));?></td>
-                                  <td>
-                                    <a href="<?php echo site_url('backend/updatefootball/'. $row->table_id);?>" class="btn btn-warning">Edit</a>
-                                    <a href="<?php echo site_url('backend/deletefootball/'. $row->table_id);?>" class="btn btn-danger">Delete</a>
-                                  </td>
-                                </tr>
-                                <?php endforeach; ?>
-                                </tbody>
-                              </table>
+                      <br/>
 
-                            </div>
+                      <div class="row">
 
+                        <div class="col-lg-12">
 
+                          <table class="table table-bordered">
+                            <thead>
+                            <tr>
+                              <th>NO.</th>
+                              <th>League</th>
+                              <th>Channel</th>
+                              <th>Time</th>
+                              <th>Team1</th>
+                              <th>Team2</th>
+                              <th style="text-align:center">Date</th>
+                              <th style="text-align:center">Action</th>
+                            </tr>
+                            </thead>
+                            <tbody>
+                              <?php $num = 1;
+                              foreach($result  as $row): ?>
+                            <tr>
+                              <td><?php echo $num++;?></td>
+                              <td><?php echo $row->lea_name;?></td>
+                              <td><?php echo $row->ch_name;?></td>
+                              <td><?php echo $row->table_time;?></td>
+                              <td><?php echo $row->table_team1;?></td>
+                              <td><?php echo $row->table_team2;?></td>
+                              <td><?php echo date('d-m-Y H:i:s', strtotime($row->table_date));?></td>
+                              <td>
+                                <a href="<?php echo site_url('backend/updatefootball/'. $row->table_id);?>" class="btn btn-warning">Edit</a>
+                                <a href="<?php echo site_url('backend/deletefootball/'. $row->table_id);?>" class="btn btn-danger">Delete</a>
+                              </td>
+                            </tr>
+                            <?php endforeach; ?>
+                            </tbody>
+                          </table>
+
+                        </div>
                       </div>
 
                     </div>
